@@ -1,5 +1,4 @@
-Pequeños scripts útiles:
 
-scan.sh nos pedirá la ip destino, el minrate y el nombre del informe en html, y tras ejecutar un escaneo de puertos nos creará el informe html, que se podrá descargar accediendo por http a la ip desde el que se ejecuta.
+scan.sh:
 
-
+This Bash script is a straightforward tool for performing port scans and generating user-friendly reports. By allowing input parameters for the IP address, minimum scan rate, and output file name, it provides flexibility for users. The integration of nmap and xsltproc makes it a powerful solution for network analysis, while the HTTP server feature ensures easy access to the generated reports.
